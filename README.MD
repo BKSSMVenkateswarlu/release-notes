@@ -1,3 +1,19 @@
+# STRATO 4.2 Release Notes
+## January 22, 2019
+
+## New Features
+* **Enhanced Private Chain Synchronization** - Users creating private chains on the blockchain can now add private chain members after the chain has been created, and are able to resynchronize with a private chain if their connection to the blockchain experiences a disruption.
+* **Private Chain Governance UI and Contract Enhancements** - Users now can see a drop down list of default private chain governance options or can drag and drop a Private Chain Governance contract into the UI from a local folder.
+* **Enhanced Audit Trail Capabilities** - Improvements to STRATO's UI to allow audit trail feature to be configured on a contract-specific basis at the time contracts are created or uploaded through the UI.  Additional enhancements to improve the coordination between audit trail and private chain features.
+* **Oauth Integration** - New integration capablities with OAuth authentication solutions, extending OAuth-based authentication to all main chain and private chain transactions and interactions
+* **UI Improvements** -  Enhanced user feedback on fauceting
+
+## Bug fixes 
+* Fixed issue in the create contract modal, 
+* Addressed an intermittent memory leak, 
+* Added a default peer connectivity PBFT parameter, and 
+* Removed a race condition affecting the consensus protocols.
+
 # STRATO 3.1 Release Notes
 ## May 23, 2018
 
